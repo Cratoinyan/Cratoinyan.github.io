@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Umut Çiloğlu</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="name">Umut Çiloğlu</h1>
+        <h2 class="title">Software Developer</h2>
+    </header>
+    <div class="about">
+        <div class="about-div">
+            <h2 class="about-h2">ABOUT ME</h2>
+            
+            <p class="about-text">I'm a Junior Software Developer. I'm mostly focused on backend development.</p>
+            <p class="about-text">I'm interested in TTRPGs, video games. I spend my time working on my hobbies and looking up new technologies. 
+                I try to make small programs about any technology that catches my interest.
+            </p>
+
+        </div>
+    </div>
+
+    <div class="contact">
+
+        <h2 class="contact-h2">CONTACT</h2>
+        <div class="button-div">
+            <a href="mailto: umutciloglu06@gmail.com"><img src="mail.png" class="link-icon" style="width:50px;height:40px;"></a>
+            <a href="https://github.com/Cratoinyan"><img src="github.png" class="link-icon"style="width:50px;height:50px;"></a>
+            <a href="https://www.linkedin.com/in/umutciloglu/"><img src="linkedin.png" class="link-icon"style="width:50px;height:50px;"></a>
+        </div>
+    </div>
+
+</body>
+</html>
+<style>
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+        width: 98vw;
+    }
+    .name{
+        font-weight: 600;
+        color:aliceblue;
+        font-size: 5vw;
+    }
+    .title{
+        font-weight:300;
+        color:aliceblue;
+        font-size: 2vw;
+    }
+
+
+    .about{
+        color:aliceblue;
+        height: 65vh;
+        width: 98vw;    
+    }
+
+    .profile-img-container{
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 10vh;
+    }
+    
+    .about-div{
+        font-weight: 300;
+        text-align: center;
+        vertical-align: middle;
+        margin-top: 5vh;
+        margin-left: 3vw;
+        margin-right: 3vw;
+
+    }
+    .about-h2{
+        font-weight: 600;
+        font-size: 3vw;
+    }
+    .about-text{
+        font-size: 2vw ;
+    }
+
+    .profile-img {
+        border: 4px black solid;
+        width: 80%;
+    }
+
+    @media screen and (min-width: 600px) {
+        .profile-img-container {
+          width: 40%;
+          float: left;
+        }
+      }
+    
+      
+    .contact{
+        color:aliceblue;
+        height: 100vh;
+        width: 98vw;
+        text-align: center;
+    }
+
+    .contact-h2{
+        font-weight: 600;
+        margin: 0 ;
+        font-size: 3vw;
+        padding-top: 20vh;
+    }
+
+    .button-div{
+        /* margin-top: 25vh; */
+        text-align: center;
+    }
+    .link-icon{
+        padding: 5vw;
+    }
+
+    button{
+        margin: 4vh;
+    }
+
+
+    body{
+        font-family: 'Red Hat Mono', monospace;
+        background-color: rgb(18,18,18);
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        font-size: 1em;
+        margin:0;
+        padding: 0;
+      }
+</style>
